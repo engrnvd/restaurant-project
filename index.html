@@ -5,7 +5,21 @@
     <title>Apetito</title>
 
     <style>
-        body {
+        .nav {
+            background-color: white;
+            color: black;
+            padding: 16px;
+            border-radius: 4px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .nav-link {
+            color: black;
+            padding: 8px;
+            font-size: 18px;
         }
 
         .hero-p {
@@ -47,9 +61,15 @@
 <body>
 
 <div class="hero-section">
-    <a href="index.html">
-        <img src="images/logo.png" alt="Logo" class="logo">
-    </a>
+    <div class="nav">
+        <a href="index.html">
+            <img src="images/logo.png" alt="Logo" class="logo">
+        </a>
+
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="#about">About</a>
+    </div>
+
     <p>Hello friend!</p>
     <h1 class="site-title">
         Welcome to <span style="color: chocolate">APETITO</span>
@@ -62,7 +82,7 @@
     <button>RESERVATION</button>
 </div>
 
-<div class="about-us">
+<div class="about-us" id="about">
     <h2>About Us</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, blanditiis cupiditate dolore, dolorem eligendi
         enim esse magni non nostrum odit quam reiciendis totam unde veniam voluptas? Cum deserunt itaque quaerat? Lorem
