@@ -6,13 +6,9 @@
 
     <style>
         body {
-            background-image: url("restaurant-bkg.jpg");
-            background-size: 100%;
-            padding: 100px;
-            color: white;
         }
 
-        p {
+        .hero-p {
             width: 600px;
         }
 
@@ -28,19 +24,47 @@
             font-size: 48px;
             margin: 0;
         }
+
+        .hero-section {
+            height: 600px;
+            color: white;
+            background-image: url("restaurant-bkg.jpg");
+            padding: 100px;
+        }
+
+        .about-us {
+            text-align: center;
+            padding: 32px;
+        }
+
     </style>
 
 </head>
 <body>
 
-<p>Hello friend!</p>
-<h1 class="site-title">
-    Welcome to APETITO
-</h1>
+<div class="hero-section">
+    <p>Hello friend!</p>
+    <h1 class="site-title">
+        Welcome to <span style="color: chocolate">APETITO</span>
+    </h1>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus aliquid atque beatae commodi consequatur deserunt dignissimos doloribus ea excepturi explicabo laboriosam laudantium magni natus, officia pariatur perferendis praesentium sunt.</p>
+    <p class="hero-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus aliquid atque beatae commodi consequatur
+        deserunt dignissimos doloribus ea excepturi explicabo laboriosam laudantium magni natus, officia pariatur
+        perferendis praesentium sunt.</p>
 
-<button>RESERVATION</button>
+    <button>RESERVATION</button>
+</div>
+
+<div class="about-us">
+    <h2>About Us</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, blanditiis cupiditate dolore, dolorem eligendi
+        enim esse magni non nostrum odit quam reiciendis totam unde veniam voluptas? Cum deserunt itaque quaerat? Lorem
+        ipsum dolor sit amet, consectetur adipisicing elit. Accusantium delectus, deserunt dicta distinctio expedita
+        illo ipsam iusto laborum minima modi odit optio perferendis quaerat, quisquam, ratione similique sit ullam
+        vel!</p>
+</div>
+
+
 
 </body>
 </html>
