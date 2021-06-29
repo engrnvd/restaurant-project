@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Invoice</title>
+
+    <style>
+        td, th, table {
+            padding: 8px;
+            border: 1px solid silver;
+            border-collapse: collapse;
+        }
+
+        .main {
+            width: 400px;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        .title {
+            text-align: center;
+            color: white;
+            background-color: steelblue;
+            margin: 0;
+            padding: 16px;
+        }
+
+        .logo {
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="main">
+    <h1 class="title">
+        <img src="images/logo.png" alt="Logo" class="logo"> Zayeqa
+    </h1>
+
+    <table>
+        <tr>
+            <th>Order #</th>
+            <td>12345</td>
+        </tr>
+        <tr>
+            <th>Date</th>
+            <td>Jun 29th, 2022</td>
+        </tr>
+        <tr>
+            <th>Customer</th>
+            <td>Mr. Bean</td>
+        </tr>
+        <tr>
+            <th>Mobile</th>
+            <td>03336353288</td>
+        </tr>
+        <tr>
+            <th>Address</th>
+            <td>House #1, Street #1, Block #2, Karachi</td>
+        </tr>
+    </table>
+    <table>
+        <thead>
+        <tr>
+            <th>Item</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Chicken Haleem</td>
+            <td>Rs. 450</td>
+            <td>2</td>
+            <td>Rs. 900</td>
+        </tr>
+        <tr>
+            <td>Special Naan</td>
+            <td>Rs. 20</td>
+            <td>6</td>
+            <td>Rs. 120</td>
+        </tr>
+        <tr>
+            <th colspan="3">Cart Total</th>
+            <th>Rs. 1020</th>
+        </tr>
+        <tr>
+            <th colspan="3" class="text-right">Discount</th>
+            <th class="text-center"> - Rs. 20</th>
+        </tr>
+        <tr>
+            <th colspan="3" class="text-right">GST</th>
+            <th class="text-center">+ Rs. 50</th>
+        </tr>
+        <tr>
+            <th colspan="3" class="text-right">Grand Total</th>
+            <th class="text-center">Rs. 1050</th>
+        </tr>
+        </tbody>
+    </table>
+
+</div>
+</body>
+</html>
