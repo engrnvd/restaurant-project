@@ -1,0 +1,187 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body, html {
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    scroll-behavior: smooth;
+}
+
+html {
+    background-color: white;
+}
+
+body {
+    max-width: 1300px;
+    margin: 0 auto;
+    color: #333;
+    background-image: url("../images/body-bkg.jpeg");
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.flex-center-all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.section {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    margin: 3rem;
+}
+
+.section h2 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #dc6f00;
+}
+
+a:hover {
+    color: crimson;
+}
+
+.my-1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.mx-1 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.ml-1 {
+    margin-left: 1rem;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mr-1 {
+    margin-right: 1rem;
+}
+
+.m-0 {
+    margin: 0
+}
+
+/* hero section */
+
+button {
+    background-color: #dc6f00;
+    color: white;
+    border: none;
+    padding: 1rem;
+    border-radius: 0.25rem;
+}
+
+.site-title {
+    font-size: 3.5rem;
+    margin: 0;
+}
+
+.hero-section {
+    height: 600px;
+    color: white;
+    background-image: url("../images/restaurant-bkg.jpg");
+    background-position-y: bottom;
+    padding: 2rem;
+}
+
+.hero-p {
+    width: 600px;
+    margin-top: 3rem;
+}
+
+.hero-content {
+    padding: 6rem 4rem;
+}
+
+.hero-btn {
+    margin-top: 3rem;
+}
+
+.hero-content .site-title {
+    margin-top: 0;
+}
+
+/* nav styles */
+
+.nav {
+    background-color: white;
+    color: #333;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding: 1rem 2rem;
+}
+
+.nav .links {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    height: 1.25rem;
+    margin-right: 1rem;
+}
+
+.nav-link {
+    color: #333;
+    padding: 0.25rem;
+    text-transform: uppercase;
+    margin: 0 1rem;
+    font-weight: bold;
+}
+
+/* about us */
+.about-us {
+    padding: 2rem;
+    margin-top: 0;
+}
+
+.about-us img {
+    width: 50%;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+}
+
+.about-us .content {
+    padding: 1rem;
+}
+
+.social-icons {
+    justify-content: flex-end;
+}
+
+.social-icon {
+    margin: 0 0.25rem;
+}
