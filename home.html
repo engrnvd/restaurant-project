@@ -11,7 +11,7 @@
 </head>
 <body>
 
-<div class="hero-section">
+<section class="hero-section" id="hero-section">
     <div class="nav" style="position:sticky;">
         <a href="home.html">
             <img src="images/logo.svg" alt="Logo" class="logo">
@@ -20,6 +20,8 @@
         <div class="links">
             <a class="nav-link" href="home.html">Home</a>
             <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#mobile-apps">Mobile Apps</a>
+            <a class="nav-link" href="#contact-us">Contact</a>
         </div>
     </div>
 
@@ -36,7 +38,7 @@
 
         <button class="hero-btn">RESERVATION</button>
     </section>
-</div>
+</section>
 
 <section class="about-us d-flex section" id="about">
     <img src="images/environment.jpg" alt="Environment">
@@ -48,7 +50,9 @@
             Lorem
             ipsum dolor sit amet, consectetur adipisicing elit. Accusantium delectus, deserunt dicta distinctio expedita
             illo ipsam iusto laborum minima modi odit optio perferendis quaerat, quisquam, ratione similique sit ullam
-            vel! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam corporis eaque explicabo iusto natus quaerat quasi, qui recusandae temporibus. Accusantium architecto iste itaque laborum laudantium necessitatibus, quo tempora totam voluptatibus.
+            vel! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam corporis eaque explicabo iusto natus
+            quaerat quasi, qui recusandae temporibus. Accusantium architecto iste itaque laborum laudantium
+            necessitatibus, quo tempora totam voluptatibus.
         </p>
         <div class="social-icons d-flex align-center">
             <a class="social-icon" href="#"><i class="mdi mdi-facebook"></i></a>
@@ -59,10 +63,85 @@
     </div>
 </section>
 
-<footer>
-    <a href="home.html">
-        <img src="images/logo-white.svg" alt="Logo" class="logo">
-    </a>
+<section class="d-flex section section-transparent" id="mobile-apps">
+    <div class="details flex-grow-1">
+        <header class="mb-1">
+            <div>Mobile Apps</div>
+            <h1 class="site-title">Download our Mobile Apps</h1>
+        </header>
+
+        <p style="margin: 3rem 0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda eos error esse,
+            est expedita harum hic minus mollitia omnis perferendis, quo quod sint veritatis voluptatem, voluptatum?
+            Incidunt nisi omnis quis.</p>
+
+        <div class="download-links d-flex align-center">
+            <button class="mr-1 d-flex align-center justify-center">
+                <i class="mdi mdi-apple mdi-24px"></i>
+            </button>
+            <button>
+                <i class="mdi mdi-android mdi-24px"></i>
+            </button>
+        </div>
+    </div>
+    <img style="transform: rotateY(180deg)" src="images/mobile-app.png" alt="Mobile app">
+</section>
+
+
+<section class="section" id="contact-us">
+    <div style="text-align: center">Contact Us</div>
+    <h2 style="margin: 0 0 2rem 0">We'd love to hear from you!</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid aperiam culpa deleniti doloribus
+        eaque eos harum ipsum nam nobis nostrum quam quas recusandae sint temporibus tenetur, totam velit veritatis!</p>
+
+    <div class="d-flex my-1">
+        <input class="contact-input mr-1" type="text" placeholder="Name">
+        <input class="contact-input" type="text" placeholder="Email">
+    </div>
+    <div class="my-1">
+        <textarea class="contact-input" placeholder="Message" rows="5"></textarea>
+    </div>
+    <div class="flex-center-all">
+        <button style="width: 15rem">Send Message</button>
+    </div>
+</section>
+
+<footer class="site-footer">
+    <div class="d-flex dotted-border mb2">
+        <div class="flex-grow-1">
+            <a href="home.html">
+                <img src="images/logo-white.svg" alt="Logo" class="logo">
+            </a>
+        </div>
+
+        <div class="social-icons d-flex align-center">
+            <a class="social-icon" href="#"><i class="mdi mdi-facebook"></i></a>
+            <a class="social-icon" href="#"><i class="mdi mdi-instagram"></i></a>
+            <a class="social-icon" href="#"><i class="mdi mdi-twitter"></i></a>
+            <a class="social-icon" href="#"><i class="mdi mdi-youtube"></i></a>
+        </div>
+    </div>
+
+    <div class="dotted-border mb2">
+        <h2>Contact Info</h2>
+        <div class="d-flex contact-info">
+            <a href="#">
+                <i class="mdi mdi-phone"></i> +92-51-5130225
+            </a>
+            <a href="#">
+                <i class="mdi mdi-mail"></i> support@zayeqa.com
+            </a>
+            <a href="#">
+                <i class="mdi mdi-map-marker"></i> Grand Plaza, East Avenue, Islamabad
+            </a>
+        </div>
+    </div>
+
+    <div class="d-flex">
+        <div class="flex-grow-1">&copy; Zayeqa 2021 . All rights reserved.</div>
+        <a href="#hero-section">Back to Top</a>
+    </div>
+
+
 </footer>
 
 </body>
